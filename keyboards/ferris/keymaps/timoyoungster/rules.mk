@@ -1,1 +1,3 @@
+SPLIT_KEYBOARD = yes
 COMBO_ENABLE = yes
+CONVERT_TO=elite_pi
