@@ -40,6 +40,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Set handedness
 #define EE_HANDS
 
+// set layer independent combos
+#define COMBO_ONLY_FROM_LAYER 0
+
 // Underglow configuration
 #ifdef RGBLIGHT_ENABLE
 #    define RGBLIGHT_EFFECT_BREATHING
