@@ -117,7 +117,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case ESC_AND_L1:
       if (record->event.pressed) {
-        register_code(KC_ESC);
+        tap_code(KC_ESC);
         layer_move(_LSYMBOL);
         return false;
       }
